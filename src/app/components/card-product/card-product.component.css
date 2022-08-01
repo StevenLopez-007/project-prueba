@@ -1,0 +1,40 @@
+.card {
+  height: 450px;
+  background-color: #F0F0F0;
+}
+
+.card .card-img-top {
+  height: 50%;
+  object-fit: contain;
+}
+
+.card .card-body {
+  height: 50%;
+  overflow: auto;
+  background-color: #F9F9F9;
+}
+
+.card .card-body p,
+.card .card-body .product-category {
+  color: #B4B4B4;
+}
+
+.card-footer a {
+  border-radius: 0;
+}
+
+.card .product-price {
+  color: #DCC45A;
+}
+
+.card hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.card .buttons-footer{
+  color: #E0E0E0;
+}
